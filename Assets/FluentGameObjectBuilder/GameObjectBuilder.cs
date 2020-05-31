@@ -28,12 +28,18 @@ namespace QFramework
 
         public GameObject Build()
         {
-            return new GameObject
+            var gameObj = new GameObject
             {
                 name = mName,
-                layer = mLayer,
-                tag = mTag
+                layer = mLayer
             };
+
+            if (!string.IsNullOrEmpty(mTag))
+            {
+                gameObj.tag = mTag;
+            }
+
+            return gameObj;
         }
     }
 }
