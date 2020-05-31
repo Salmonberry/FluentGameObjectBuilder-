@@ -13,27 +13,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-05-31T23:26:55.494+08:00
+  lastUpdatedAtString: 2020-06-01T01:28:00.711+08:00
   initializedAtString: 2020-05-31T19:50:55.527+08:00
   entries:
-  - path: .idea\.idea.FluentGameObjectBuilder\.idea\workspace.xml
-    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\.idea\.idea.FluentGameObjectBuilder\.idea\workspace.xml
-    projectPath: .idea\.idea.FluentGameObjectBuilder\.idea\workspace.xml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\FluentGameObjectBuilder\GameObjectBuilder.cs
-    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\GameObjectBuilder.cs
-    projectPath: Assets\FluentGameObjectBuilder\GameObjectBuilder.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\FluentGameObjectBuilderExample\FluentObjectBuilderExample.cs
-    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilderExample\FluentObjectBuilderExample.cs
-    projectPath: Assets\FluentGameObjectBuilderExample\FluentObjectBuilderExample.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\assetDatabase3
     fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\assetDatabase3
     projectPath: Library\assetDatabase3
@@ -70,33 +52,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\55\55be9d69ee2f4d988d10d5bdaa188c30
-    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\metadata\55\55be9d69ee2f4d988d10d5bdaa188c30
-    projectPath: Library\metadata\55\55be9d69ee2f4d988d10d5bdaa188c30
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\d6\d67ce7cba9238584f9b562069e1a6416
-    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\metadata\d6\d67ce7cba9238584f9b562069e1a6416
-    projectPath: Library\metadata\d6\d67ce7cba9238584f9b562069e1a6416
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\ProtocolInstance.json
     fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\ProtocolInstance.json
     projectPath: Library\ProtocolInstance.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: ProjectSettings\QualitySettings.asset
-    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\ProjectSettings\QualitySettings.asset
-    projectPath: ProjectSettings\QualitySettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: ProjectSettings\UnityConnectSettings.asset
-    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\ProjectSettings\UnityConnectSettings.asset
-    projectPath: ProjectSettings\UnityConnectSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
