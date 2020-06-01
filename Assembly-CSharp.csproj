@@ -57,11 +57,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\FluentGameObjectBuilder\CameraBuilder.cs" />
     <Compile Include="Assets\FluentGameObjectBuilder\Fluent.cs" />
     <Compile Include="Assets\FluentGameObjectBuilder\FluentMonoBehaviour.cs" />
     <Compile Include="Assets\FluentGameObjectBuilder\GameObjectBuilder.cs" />
     <Compile Include="Assets\FluentGameObjectBuilder\MonoBehaviourBuilder.cs" />
     <Compile Include="Assets\FluentGameObjectBuilderExample\FluentObjectBuilderExample.cs" />
+    <Compile Include="Assets\FluentGameObjectBuilderExample\RollABall\RallABall.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>E:/WorkSpace/Code/Unity/FluentGameObjectBuilder/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

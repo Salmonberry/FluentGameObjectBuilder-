@@ -14,6 +14,11 @@ namespace QFramework
             return new MonoBehaviourBuilder(gameObject);
         }
 
+        public static CameraBuilder Camera(GameObject gameObject)
+        {
+            return new CameraBuilder(gameObject);
+        }
+
     }
 }
 

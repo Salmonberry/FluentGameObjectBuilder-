@@ -13,9 +13,63 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-05-31T23:30:21.970+08:00
+  lastUpdatedAtString: 2020-06-01T01:29:46.782+08:00
   initializedAtString: 2020-05-31T23:16:20.774+08:00
   log:
+  - commitID: 093b6c21f3c7d46bf02d90b04a2818f17e65ad7b
+    mergeA: 
+    mergeB: 
+    authorName: Salmonberry
+    authorEmail: sos2012happy@gmail.com
+    commitEmail: sos2012happy@gmail.com
+    commitName: Salmonberry
+    summary: 'feat(FluentGameObjectBuilder): FluentGameObjectBuilder'
+    description: 
+    timeString: 2020-06-01T01:29:14.000+08:00
+    commitTimeString: 2020-06-01T01:29:14.000+08:00
+    changes:
+    - path: Library\ProtocolInstance.json
+      fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\ProtocolInstance.json
+      projectPath: Library\ProtocolInstance.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\assetDatabase3
+      fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 890b2da36c7e55917433234252d41ad8f6748a90
     mergeA: 
     mergeB: 

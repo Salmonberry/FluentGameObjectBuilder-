@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-05-31T19:50:55.379+08:00
-  initializedAtString: 2020-05-31T19:50:55.379+08:00
+  lastUpdatedAtString: 2020-06-01T23:54:43.187+08:00
+  initializedAtString: 2020-06-01T23:54:43.187+08:00
   currentGitRemote:
     name: origin
     url: https://github.com/Salmonberry/FluentGameObjectBuilder-.git
