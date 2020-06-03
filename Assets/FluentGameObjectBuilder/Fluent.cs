@@ -19,6 +19,16 @@ namespace QFramework
             return new CameraBuilder(gameObject);
         }
 
+        public static LightBuilder Light(GameObject gameObject)
+        {
+            return new LightBuilder(gameObject);
+        }
+
+        public static PlaneBuilder Plane(string name)
+        {
+            return new PlaneBuilder(name);
+        }
+
     }
 }
 

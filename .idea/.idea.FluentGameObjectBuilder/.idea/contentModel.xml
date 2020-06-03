@@ -10,9 +10,12 @@
         <e p="FluentGameObjectBuilder" t="Include">
           <e p="CameraBuilder.cs" t="Include" />
           <e p="Fluent.cs" t="Include" />
+          <e p="FluentBuilder.cs" t="Include" />
           <e p="FluentMonoBehaviour.cs" t="Include" />
           <e p="GameObjectBuilder.cs" t="Include" />
+          <e p="LightBuilder.cs" t="Include" />
           <e p="MonoBehaviourBuilder.cs" t="Include" />
+          <e p="PlaneBuilder.cs" t="Include" />
         </e>
         <e p="FluentGameObjectBuilderExample" t="Include">
           <e p="FluentObjectBuilderExample.cs" t="Include" />

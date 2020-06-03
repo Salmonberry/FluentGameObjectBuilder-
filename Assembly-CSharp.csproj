@@ -59,9 +59,12 @@
   <ItemGroup>
     <Compile Include="Assets\FluentGameObjectBuilder\CameraBuilder.cs" />
     <Compile Include="Assets\FluentGameObjectBuilder\Fluent.cs" />
+    <Compile Include="Assets\FluentGameObjectBuilder\FluentBuilder.cs" />
     <Compile Include="Assets\FluentGameObjectBuilder\FluentMonoBehaviour.cs" />
     <Compile Include="Assets\FluentGameObjectBuilder\GameObjectBuilder.cs" />
+    <Compile Include="Assets\FluentGameObjectBuilder\LightBuilder.cs" />
     <Compile Include="Assets\FluentGameObjectBuilder\MonoBehaviourBuilder.cs" />
+    <Compile Include="Assets\FluentGameObjectBuilder\PlaneBuilder.cs" />
     <Compile Include="Assets\FluentGameObjectBuilderExample\FluentObjectBuilderExample.cs" />
     <Compile Include="Assets\FluentGameObjectBuilderExample\RollABall\RallABall.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">

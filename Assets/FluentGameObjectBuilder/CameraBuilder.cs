@@ -2,17 +2,18 @@ using UnityEngine;
 
 namespace QFramework
 {
-    public class CameraBuilder
+    public class CameraBuilder:FluentBuilder
     {
         private GameObject mGameObject { get; set; }
 
-        public CameraBuilder(GameObject gameObject)
+        public CameraBuilder(GameObject gameObject) : base(gameObject)
         {
-            mGameObject = gameObject;
+            
         }
 
-        public void Build()
+        public override void Build()
         {
+            base.Build();
             mGameObject.AddComponent<Camera>();
         }
     }
