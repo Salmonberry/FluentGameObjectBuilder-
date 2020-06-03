@@ -13,30 +13,258 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-06-04T06:58:50.529+08:00
+  lastUpdatedAtString: 2020-06-04T07:01:46.447+08:00
   initializedAtString: 2020-06-04T05:42:24.779+08:00
   entries:
+  - path: .idea\.idea.FluentGameObjectBuilder\.idea\contentModel.xml
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\.idea\.idea.FluentGameObjectBuilder\.idea\contentModel.xml
+    projectPath: .idea\.idea.FluentGameObjectBuilder\.idea\contentModel.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: .idea\.idea.FluentGameObjectBuilder\.idea\workspace.xml
     fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\.idea\.idea.FluentGameObjectBuilder\.idea\workspace.xml
     projectPath: .idea\.idea.FluentGameObjectBuilder\.idea\workspace.xml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Assembly-CSharp.csproj
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\FluentGameObjectBuilder\API.meta
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\API.meta
+    projectPath: Assets\FluentGameObjectBuilder\API.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FluentGameObjectBuilder\API\Fluent.cs
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\API\Fluent.cs
+    projectPath: Assets\FluentGameObjectBuilder\API\Fluent.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FluentGameObjectBuilder\API\Fluent.cs.meta
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\API\Fluent.cs.meta
+    projectPath: Assets\FluentGameObjectBuilder\API\Fluent.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FluentGameObjectBuilder\Builder.meta
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\Builder.meta
+    projectPath: Assets\FluentGameObjectBuilder\Builder.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FluentGameObjectBuilder\Builder\CameraBuilder.cs
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\Builder\CameraBuilder.cs
+    projectPath: Assets\FluentGameObjectBuilder\Builder\CameraBuilder.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FluentGameObjectBuilder\Builder\CameraBuilder.cs.meta
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\Builder\CameraBuilder.cs.meta
+    projectPath: Assets\FluentGameObjectBuilder\Builder\CameraBuilder.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FluentGameObjectBuilder\Builder\FluentBuilder.cs
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\Builder\FluentBuilder.cs
+    projectPath: Assets\FluentGameObjectBuilder\Builder\FluentBuilder.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FluentGameObjectBuilder\Builder\FluentBuilder.cs.meta
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\Builder\FluentBuilder.cs.meta
+    projectPath: Assets\FluentGameObjectBuilder\Builder\FluentBuilder.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FluentGameObjectBuilder\Builder\GameObjectBuilder.cs
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\Builder\GameObjectBuilder.cs
+    projectPath: Assets\FluentGameObjectBuilder\Builder\GameObjectBuilder.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FluentGameObjectBuilder\Builder\GameObjectBuilder.cs.meta
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\Builder\GameObjectBuilder.cs.meta
+    projectPath: Assets\FluentGameObjectBuilder\Builder\GameObjectBuilder.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FluentGameObjectBuilder\Builder\LightBuilder.cs
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\Builder\LightBuilder.cs
+    projectPath: Assets\FluentGameObjectBuilder\Builder\LightBuilder.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FluentGameObjectBuilder\Builder\LightBuilder.cs.meta
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\Builder\LightBuilder.cs.meta
+    projectPath: Assets\FluentGameObjectBuilder\Builder\LightBuilder.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FluentGameObjectBuilder\Builder\MonoBehaviourBuilder.cs
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\Builder\MonoBehaviourBuilder.cs
+    projectPath: Assets\FluentGameObjectBuilder\Builder\MonoBehaviourBuilder.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FluentGameObjectBuilder\Builder\MonoBehaviourBuilder.cs.meta
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\Builder\MonoBehaviourBuilder.cs.meta
+    projectPath: Assets\FluentGameObjectBuilder\Builder\MonoBehaviourBuilder.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FluentGameObjectBuilder\Builder\PlaneBuilder.cs
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\Builder\PlaneBuilder.cs
+    projectPath: Assets\FluentGameObjectBuilder\Builder\PlaneBuilder.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FluentGameObjectBuilder\Builder\PlaneBuilder.cs.meta
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\Builder\PlaneBuilder.cs.meta
+    projectPath: Assets\FluentGameObjectBuilder\Builder\PlaneBuilder.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FluentGameObjectBuilder\CameraBuilder.cs
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\CameraBuilder.cs
+    projectPath: Assets\FluentGameObjectBuilder\CameraBuilder.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\FluentGameObjectBuilder\CameraBuilder.cs.meta
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\CameraBuilder.cs.meta
+    projectPath: Assets\FluentGameObjectBuilder\CameraBuilder.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\FluentGameObjectBuilder\Fluent.cs
     fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\Fluent.cs
     projectPath: Assets\FluentGameObjectBuilder\Fluent.cs
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
+  - path: Assets\FluentGameObjectBuilder\Fluent.cs.meta
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\Fluent.cs.meta
+    projectPath: Assets\FluentGameObjectBuilder\Fluent.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\FluentGameObjectBuilder\FluentBuilder.cs
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\FluentBuilder.cs
+    projectPath: Assets\FluentGameObjectBuilder\FluentBuilder.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\FluentGameObjectBuilder\FluentBuilder.cs.meta
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\FluentBuilder.cs.meta
+    projectPath: Assets\FluentGameObjectBuilder\FluentBuilder.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\FluentGameObjectBuilder\FluentMonoBehaviour.cs
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\FluentMonoBehaviour.cs
+    projectPath: Assets\FluentGameObjectBuilder\FluentMonoBehaviour.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\FluentGameObjectBuilder\FluentMonoBehaviour.cs.meta
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\FluentMonoBehaviour.cs.meta
+    projectPath: Assets\FluentGameObjectBuilder\FluentMonoBehaviour.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\FluentGameObjectBuilder\GameObjectBuilder.cs
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\GameObjectBuilder.cs
+    projectPath: Assets\FluentGameObjectBuilder\GameObjectBuilder.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\FluentGameObjectBuilder\GameObjectBuilder.cs.meta
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\GameObjectBuilder.cs.meta
+    projectPath: Assets\FluentGameObjectBuilder\GameObjectBuilder.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\FluentGameObjectBuilder\Helper.meta
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\Helper.meta
+    projectPath: Assets\FluentGameObjectBuilder\Helper.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FluentGameObjectBuilder\Helper\FluentMonoBehaviour.cs
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\Helper\FluentMonoBehaviour.cs
+    projectPath: Assets\FluentGameObjectBuilder\Helper\FluentMonoBehaviour.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FluentGameObjectBuilder\Helper\FluentMonoBehaviour.cs.meta
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\Helper\FluentMonoBehaviour.cs.meta
+    projectPath: Assets\FluentGameObjectBuilder\Helper\FluentMonoBehaviour.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Assets\FluentGameObjectBuilder\LightBuilder.cs
     fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\LightBuilder.cs
     projectPath: Assets\FluentGameObjectBuilder\LightBuilder.cs
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
+  - path: Assets\FluentGameObjectBuilder\LightBuilder.cs.meta
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\LightBuilder.cs.meta
+    projectPath: Assets\FluentGameObjectBuilder\LightBuilder.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\FluentGameObjectBuilder\MonoBehaviourBuilder.cs
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\MonoBehaviourBuilder.cs
+    projectPath: Assets\FluentGameObjectBuilder\MonoBehaviourBuilder.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\FluentGameObjectBuilder\MonoBehaviourBuilder.cs.meta
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\MonoBehaviourBuilder.cs.meta
+    projectPath: Assets\FluentGameObjectBuilder\MonoBehaviourBuilder.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\FluentGameObjectBuilder\PlaneBuilder.cs
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\PlaneBuilder.cs
+    projectPath: Assets\FluentGameObjectBuilder\PlaneBuilder.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\FluentGameObjectBuilder\PlaneBuilder.cs.meta
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\PlaneBuilder.cs.meta
+    projectPath: Assets\FluentGameObjectBuilder\PlaneBuilder.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\assetDatabase3
     fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\assetDatabase3
     projectPath: Library\assetDatabase3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\gfu\cache\branches.yaml
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\gfu\cache\branches.yaml
+    projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\gfu\cache\gitlocks.yaml
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\gfu\cache\gitlog.yaml
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -64,33 +292,81 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\metadata\0f\0ffa1cc80ee54e46815c573b6f110570
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\metadata\0f\0ffa1cc80ee54e46815c573b6f110570
+    projectPath: Library\metadata\0f\0ffa1cc80ee54e46815c573b6f110570
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\19\197a5cb7407f4c819d225836f670a8a1
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\metadata\19\197a5cb7407f4c819d225836f670a8a1
+    projectPath: Library\metadata\19\197a5cb7407f4c819d225836f670a8a1
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\49\49c4be314e3845a9b7dc0f71f287d23c
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\metadata\49\49c4be314e3845a9b7dc0f71f287d23c
+    projectPath: Library\metadata\49\49c4be314e3845a9b7dc0f71f287d23c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\55\55be9d69ee2f4d988d10d5bdaa188c30
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\metadata\55\55be9d69ee2f4d988d10d5bdaa188c30
+    projectPath: Library\metadata\55\55be9d69ee2f4d988d10d5bdaa188c30
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\5b\5beba5b009a0dac409c0816a3e67a5a6
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\metadata\5b\5beba5b009a0dac409c0816a3e67a5a6
+    projectPath: Library\metadata\5b\5beba5b009a0dac409c0816a3e67a5a6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\5b\5beba5b009a0dac409c0816a3e67a5a6.info
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\metadata\5b\5beba5b009a0dac409c0816a3e67a5a6.info
+    projectPath: Library\metadata\5b\5beba5b009a0dac409c0816a3e67a5a6.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\d1\d10a15308d121524d926848e4420e5c8
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\metadata\d1\d10a15308d121524d926848e4420e5c8
+    projectPath: Library\metadata\d1\d10a15308d121524d926848e4420e5c8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\d1\d10a15308d121524d926848e4420e5c8.info
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\metadata\d1\d10a15308d121524d926848e4420e5c8.info
+    projectPath: Library\metadata\d1\d10a15308d121524d926848e4420e5c8.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\d9\d98acf86be45448ba58ed467011e1a0d
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\metadata\d9\d98acf86be45448ba58ed467011e1a0d
+    projectPath: Library\metadata\d9\d98acf86be45448ba58ed467011e1a0d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\da\da452a96bd632a04e810134f7cecfa4f
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\metadata\da\da452a96bd632a04e810134f7cecfa4f
+    projectPath: Library\metadata\da\da452a96bd632a04e810134f7cecfa4f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\da\da452a96bd632a04e810134f7cecfa4f.info
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\metadata\da\da452a96bd632a04e810134f7cecfa4f.info
+    projectPath: Library\metadata\da\da452a96bd632a04e810134f7cecfa4f.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\ee\eefff4c18847444ba0dd45b4b55bbbdb
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\metadata\ee\eefff4c18847444ba0dd45b4b55bbbdb
+    projectPath: Library\metadata\ee\eefff4c18847444ba0dd45b4b55bbbdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\ProtocolInstance.json
     fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\ProtocolInstance.json
     projectPath: Library\ProtocolInstance.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ShaderCache\3\39a6a28d980d3ca42248ec13046c89b9.bin
-    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\ShaderCache\3\39a6a28d980d3ca42248ec13046c89b9.bin
-    projectPath: Library\ShaderCache\3\39a6a28d980d3ca42248ec13046c89b9.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\ShaderCache\6\6b338927cb898693b4ecd44cf1319eea.bin
-    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\ShaderCache\6\6b338927cb898693b4ecd44cf1319eea.bin
-    projectPath: Library\ShaderCache\6\6b338927cb898693b4ecd44cf1319eea.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\ShaderCache\7\7582f779a33383eb9314499ff7e0b739.bin
-    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\ShaderCache\7\7582f779a33383eb9314499ff7e0b739.bin
-    projectPath: Library\ShaderCache\7\7582f779a33383eb9314499ff7e0b739.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\ShaderCache\c\ce0f1933661a6b9eb7ff0d417e0f5757.bin
-    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\ShaderCache\c\ce0f1933661a6b9eb7ff0d417e0f5757.bin
-    projectPath: Library\ShaderCache\c\ce0f1933661a6b9eb7ff0d417e0f5757.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
