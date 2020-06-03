@@ -6,6 +6,8 @@ namespace QFramework
     {
         protected GameObject mGameObject { get; set; }
         protected Vector3 mPosition { get; set; }
+        
+        protected Vector3 mEulerAngles { get; set; }
 
         public FluentBuilder(GameObject gameObject)
         {
@@ -18,9 +20,16 @@ namespace QFramework
             return this;
         }
 
+        public FluentBuilder EulerAngles(Vector3 angles)
+        {
+            mEulerAngles = angles;
+            return this;
+        }
+
         public virtual void Build()
         {
             mGameObject.transform.position = mPosition;
+            mGameObject.transform.eulerAngles = mEulerAngles;
         }
         
     }

@@ -13,19 +13,25 @@ namespace QFramework.Exaple
                 .Name("Main Camera")
                 .Build();
 
-            Fluent.Camera(cameraGameObject).Position(Vector3.up).Build();
+           
             
             //设置camera位置
-            cameraGameObject.transform.position=Vector3.up;
+//            cameraGameObject.transform.position=Vector3.up;
+            Fluent.Camera(cameraGameObject).Position(Vector3.up).Build();
             
 
             //创建方向光
             var directionLightGameObj = Fluent.GameObject()
                 .Name("Directtion Light")
                 .Build();
-
+            
+            //设置光得方向
+//            directionLightGameObj.transform.eulerAngles=Vector3.right*45;
+            
+            //设置光的类型
             Fluent.Light(directionLightGameObj)
                 .Type(LightType.Directional)
+                .EulerAngles(Vector3.right*45) //设置光源的方向
                 .Build();
             //var light= directionLightGameObj.AddComponent<Light>();
             //light.type = LightType.Directional;

@@ -4,7 +4,7 @@ namespace QFramework
 {
     public class CameraBuilder:FluentBuilder
     {
-        private GameObject mGameObject { get; set; }
+//        private GameObject mGameObject { get; set; }
 
         public CameraBuilder(GameObject gameObject) : base(gameObject)
         {

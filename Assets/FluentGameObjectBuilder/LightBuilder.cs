@@ -2,14 +2,14 @@ using UnityEngine;
 
 namespace QFramework
 {
-    public class LightBuilder
+    public class LightBuilder:FluentBuilder
     {
-        private GameObject mGameObject { get; set; }
+//        private GameObject mGameObject { get; set; }
         private LightType mType { get; set; }
 
-        public LightBuilder(GameObject gameObject)
+        public LightBuilder(GameObject gameObject) : base(gameObject)
         {
-            mGameObject = gameObject;
+            
         }
 
         public LightBuilder Type(LightType type)
@@ -18,8 +18,9 @@ namespace QFramework
             return this;
         }
 
-        public void Build()
+        public override void Build()
         {
+            base.Build();
             var light = mGameObject.AddComponent<Light>();
             light.type = mType;
         }
