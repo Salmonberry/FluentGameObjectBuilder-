@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c697069b-87b4-4438-aec5-c99fa5c3160e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/FluentGameObjectBuilder/FluentBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FluentGameObjectBuilder/FluentBuilder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FluentGameObjectBuilder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FluentGameObjectBuilder/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FluentGameObjectBuilder/Fluent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FluentGameObjectBuilder/Fluent.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FluentGameObjectBuilder/LightBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FluentGameObjectBuilder/LightBuilder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FluentGameObjectBuilderExample/RollABall/RallABall.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FluentGameObjectBuilderExample/RollABall/RallABall.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/00/00a39f90bd8446e4bcd590a83814e13e" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/00/00a39f90bd8446e4bcd590a83814e13e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/95/9530d196589f8a442a3d4e47c5214d8e" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/95/9530d196589f8a442a3d4e47c5214d8e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/09/0900cdb7f9a6cbc4eb253df2cec126d1" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/09/0900cdb7f9a6cbc4eb253df2cec126d1" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,16 +55,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/FluentGameObjectBuilder/Fluent.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            <state relative-caret-position="180">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
               <folding>
-                <marker date="1591116284443" expanded="true" signature="40:753" ph="{...}" />
-                <marker date="1591116284443" expanded="true" signature="74:751" ph="{...}" />
-                <marker date="1591116284443" expanded="true" signature="133:197" ph="{...}" />
-                <marker date="1591116284443" expanded="true" signature="278:355" ph="{...}" />
-                <marker date="1591116284443" expanded="true" signature="422:492" ph="{...}" />
-                <marker date="1591116284443" expanded="true" signature="557:626" ph="{...}" />
-                <marker date="1591116284443" expanded="true" signature="681:744" ph="{...}" />
+                <marker date="1591225118479" expanded="true" signature="40:769" ph="{...}" />
+                <marker date="1591225118479" expanded="true" signature="82:767" ph="{...}" />
+                <marker date="1591225118479" expanded="true" signature="141:205" ph="{...}" />
+                <marker date="1591225118479" expanded="true" signature="286:363" ph="{...}" />
+                <marker date="1591225118479" expanded="true" signature="430:500" ph="{...}" />
+                <marker date="1591225118479" expanded="true" signature="502:642" ph="/* public static LightBuilder Light(GameObject gameObject) ... */" />
+                <marker date="1591225118479" expanded="true" signature="697:760" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -74,15 +73,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/FluentGameObjectBuilderExample/RollABall/RallABall.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+            <state relative-caret-position="174">
+              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
               <folding>
-                <marker date="1591223047613" expanded="false" signature="6:78" ph="..." />
-                <marker date="1591223047613" expanded="true" signature="107:1972" ph="{...}" />
-                <marker date="1591223047613" expanded="true" signature="152:1970" ph="{...}" />
-                <marker date="1591223047613" expanded="true" signature="187:1964" ph="{...}" />
-                <marker date="1591223047613" expanded="true" signature="373:447" ph="/* 设置camera位置 ... */" />
-                <marker date="1591223047613" expanded="true" signature="957:1886" ph="/* var light= directionLightGameObj.AddComponent&lt;Light&gt;(); ... */" />
+                <marker date="1591223538581" expanded="false" signature="6:78" ph="..." />
+                <marker date="1591223538581" expanded="true" signature="107:2031" ph="{...}" />
+                <marker date="1591223538581" expanded="true" signature="152:2029" ph="{...}" />
+                <marker date="1591223538581" expanded="true" signature="187:2023" ph="{...}" />
+                <marker date="1591223538581" expanded="true" signature="373:447" ph="/* 设置camera位置 ... */" />
+                <marker date="1591223538581" expanded="true" signature="709:827" ph="/* 设置光得方向 ... */" />
+                <marker date="1591223538581" expanded="true" signature="1016:1945" ph="/* var light= directionLightGameObj.AddComponent&lt;Light&gt;(); ... */" />
               </folding>
             </state>
           </provider>
@@ -120,32 +120,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/FluentGameObjectBuilder/LightBuilder.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+            <state relative-caret-position="225">
+              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
               <folding>
-                <marker date="1591222973068" expanded="true" signature="40:600" ph="{...}" />
-                <marker date="1591222973068" expanded="true" signature="86:598" ph="{...}" />
-                <marker date="1591222973068" expanded="true" signature="264:322" ph="{...}" />
-                <marker date="1591222973068" expanded="true" signature="372:443" ph="{...}" />
-                <marker date="1591222973068" expanded="true" signature="472:583" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/FluentGameObjectBuilder/CameraBuilder.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="6" column="52" lean-forward="true" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
-              <folding>
-                <marker date="1591221733840" expanded="true" signature="40:391" ph="{...}" />
-                <marker date="1591221733840" expanded="true" signature="87:389" ph="{...}" />
-                <marker date="1591221733840" expanded="true" signature="218:251" ph="{...}" />
-                <marker date="1591221733840" expanded="true" signature="289:383" ph="{...}" />
+                <marker date="1591225115920" expanded="true" signature="40:795" ph="{...}" />
+                <marker date="1591225115920" expanded="true" signature="81:226" ph="{...}" />
+                <marker date="1591225115920" expanded="true" signature="151:220" ph="{...}" />
+                <marker date="1591225115920" expanded="true" signature="271:793" ph="{...}" />
+                <marker date="1591225115920" expanded="true" signature="449:482" ph="{...}" />
+                <marker date="1591225115920" expanded="true" signature="532:603" ph="{...}" />
+                <marker date="1591225115920" expanded="true" signature="641:778" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -177,10 +164,10 @@
         <option value="$PROJECT_DIR$/Assets/FluentGameObjectBuilderExample/FluentObjectBuilderExample.cs" />
         <option value="$PROJECT_DIR$/Assets/FluentGameObjectBuilder/GameObjectBuilder.cs" />
         <option value="$PROJECT_DIR$/Assets/FluentGameObjectBuilder/PlaneBuilder.cs" />
-        <option value="$PROJECT_DIR$/Assets/FluentGameObjectBuilder/Fluent.cs" />
+        <option value="$PROJECT_DIR$/Assets/FluentGameObjectBuilder/FluentBuilder.cs" />
         <option value="$PROJECT_DIR$/Assets/FluentGameObjectBuilder/CameraBuilder.cs" />
         <option value="$PROJECT_DIR$/Assets/FluentGameObjectBuilderExample/RollABall/RallABall.cs" />
-        <option value="$PROJECT_DIR$/Assets/FluentGameObjectBuilder/FluentBuilder.cs" />
+        <option value="$PROJECT_DIR$/Assets/FluentGameObjectBuilder/Fluent.cs" />
         <option value="$PROJECT_DIR$/Assets/FluentGameObjectBuilder/LightBuilder.cs" />
       </list>
     </option>
@@ -280,7 +267,7 @@
       <workItem from="1590913069119" duration="1018000" />
       <workItem from="1590917747688" duration="8112000" />
       <workItem from="1591029135423" duration="5796000" />
-      <workItem from="1591220662468" duration="2384000" />
+      <workItem from="1591220662468" duration="4315000" />
     </task>
     <task id="LOCAL-00001" summary="MonoBehaviour生命周期">
       <created>1590937977805</created>
@@ -293,7 +280,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17310000" />
+    <option name="totallyTimeSpent" value="19241000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -326,7 +313,7 @@
       <window_info anchor="bottom" id="Unity" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Unit Tests" order="12" sideWeight="0.49946696" weight="0.06133056" />
-      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.4989339" weight="0.6767152" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.4989339" visible="true" weight="0.14864865" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50053304" side_tool="true" weight="0.32952183" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -405,22 +392,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/FluentGameObjectBuilder/Fluent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-          <folding>
-            <marker date="1591116284443" expanded="true" signature="40:753" ph="{...}" />
-            <marker date="1591116284443" expanded="true" signature="74:751" ph="{...}" />
-            <marker date="1591116284443" expanded="true" signature="133:197" ph="{...}" />
-            <marker date="1591116284443" expanded="true" signature="278:355" ph="{...}" />
-            <marker date="1591116284443" expanded="true" signature="422:492" ph="{...}" />
-            <marker date="1591116284443" expanded="true" signature="557:626" ph="{...}" />
-            <marker date="1591116284443" expanded="true" signature="681:744" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/FluentGameObjectBuilder/PlaneBuilder.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -451,21 +422,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/FluentGameObjectBuilderExample/RollABall/RallABall.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-          <folding>
-            <marker date="1591223047613" expanded="false" signature="6:78" ph="..." />
-            <marker date="1591223047613" expanded="true" signature="107:1972" ph="{...}" />
-            <marker date="1591223047613" expanded="true" signature="152:1970" ph="{...}" />
-            <marker date="1591223047613" expanded="true" signature="187:1964" ph="{...}" />
-            <marker date="1591223047613" expanded="true" signature="373:447" ph="/* 设置camera位置 ... */" />
-            <marker date="1591223047613" expanded="true" signature="957:1886" ph="/* var light= directionLightGameObj.AddComponent&lt;Light&gt;(); ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/FluentGameObjectBuilder/FluentBuilder.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -481,29 +437,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/FluentGameObjectBuilder/LightBuilder.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/FluentGameObjectBuilder/CameraBuilder.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        <state relative-caret-position="315">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <marker date="1591222973068" expanded="true" signature="40:600" ph="{...}" />
-            <marker date="1591222973068" expanded="true" signature="86:598" ph="{...}" />
-            <marker date="1591222973068" expanded="true" signature="264:322" ph="{...}" />
-            <marker date="1591222973068" expanded="true" signature="372:443" ph="{...}" />
-            <marker date="1591222973068" expanded="true" signature="472:583" ph="{...}" />
+            <marker date="1591223087349" expanded="true" signature="40:393" ph="{...}" />
+            <marker date="1591223087349" expanded="true" signature="87:391" ph="{...}" />
+            <marker date="1591223087349" expanded="true" signature="220:253" ph="{...}" />
+            <marker date="1591223087349" expanded="true" signature="291:385" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/FluentGameObjectBuilder/CameraBuilder.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/FluentGameObjectBuilderExample/RollABall/RallABall.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="6" column="52" lean-forward="true" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+        <state relative-caret-position="174">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
           <folding>
-            <marker date="1591221733840" expanded="true" signature="40:391" ph="{...}" />
-            <marker date="1591221733840" expanded="true" signature="87:389" ph="{...}" />
-            <marker date="1591221733840" expanded="true" signature="218:251" ph="{...}" />
-            <marker date="1591221733840" expanded="true" signature="289:383" ph="{...}" />
+            <marker date="1591223538581" expanded="false" signature="6:78" ph="..." />
+            <marker date="1591223538581" expanded="true" signature="107:2031" ph="{...}" />
+            <marker date="1591223538581" expanded="true" signature="152:2029" ph="{...}" />
+            <marker date="1591223538581" expanded="true" signature="187:2023" ph="{...}" />
+            <marker date="1591223538581" expanded="true" signature="373:447" ph="/* 设置camera位置 ... */" />
+            <marker date="1591223538581" expanded="true" signature="709:827" ph="/* 设置光得方向 ... */" />
+            <marker date="1591223538581" expanded="true" signature="1016:1945" ph="/* var light= directionLightGameObj.AddComponent&lt;Light&gt;(); ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/FluentGameObjectBuilder/Fluent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <marker date="1591225118479" expanded="true" signature="40:769" ph="{...}" />
+            <marker date="1591225118479" expanded="true" signature="82:767" ph="{...}" />
+            <marker date="1591225118479" expanded="true" signature="141:205" ph="{...}" />
+            <marker date="1591225118479" expanded="true" signature="286:363" ph="{...}" />
+            <marker date="1591225118479" expanded="true" signature="430:500" ph="{...}" />
+            <marker date="1591225118479" expanded="true" signature="502:642" ph="/* public static LightBuilder Light(GameObject gameObject) ... */" />
+            <marker date="1591225118479" expanded="true" signature="697:760" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/FluentGameObjectBuilder/LightBuilder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <marker date="1591225115920" expanded="true" signature="40:795" ph="{...}" />
+            <marker date="1591225115920" expanded="true" signature="81:226" ph="{...}" />
+            <marker date="1591225115920" expanded="true" signature="151:220" ph="{...}" />
+            <marker date="1591225115920" expanded="true" signature="271:793" ph="{...}" />
+            <marker date="1591225115920" expanded="true" signature="449:482" ph="{...}" />
+            <marker date="1591225115920" expanded="true" signature="532:603" ph="{...}" />
+            <marker date="1591225115920" expanded="true" signature="641:778" ph="{...}" />
           </folding>
         </state>
       </provider>

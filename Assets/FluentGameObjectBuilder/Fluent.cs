@@ -2,7 +2,7 @@
 
 namespace QFramework
 {
-    public static class Fluent 
+    public static partial class Fluent 
     {
         public static GameObjectBuilder GameObject()
         {
@@ -19,10 +19,10 @@ namespace QFramework
             return new CameraBuilder(gameObject);
         }
 
-        public static LightBuilder Light(GameObject gameObject)
-        {
-            return new LightBuilder(gameObject);
-        }
+//        public static LightBuilder Light(GameObject gameObject)
+//        {
+//            return new LightBuilder(gameObject);
+//        }
 
         public static PlaneBuilder Plane(string name)
         {

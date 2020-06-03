@@ -2,6 +2,14 @@ using UnityEngine;
 
 namespace QFramework
 {
+    public static partial class Fluent
+    {
+        public static LightBuilder Light(GameObject gameObject)
+        {
+            return new LightBuilder(gameObject);
+        }
+    }
+
     public class LightBuilder:FluentBuilder
     {
 //        private GameObject mGameObject { get; set; }
