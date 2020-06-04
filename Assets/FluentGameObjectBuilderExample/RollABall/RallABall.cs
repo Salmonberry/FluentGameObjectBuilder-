@@ -61,6 +61,9 @@ namespace QFramework.Exaple
             Fluent.Plane("Ground").Build();
 
             //创建player
+            Fluent.Sphere("Player")
+                .Position(new Vector3(0,1,3))
+                .Build();
         }
     }
 }

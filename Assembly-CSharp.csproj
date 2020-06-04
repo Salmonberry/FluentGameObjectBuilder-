@@ -64,6 +64,7 @@
     <Compile Include="Assets\FluentGameObjectBuilder\Builder\LightBuilder.cs" />
     <Compile Include="Assets\FluentGameObjectBuilder\Builder\MonoBehaviourBuilder.cs" />
     <Compile Include="Assets\FluentGameObjectBuilder\Builder\PlaneBuilder.cs" />
+    <Compile Include="Assets\FluentGameObjectBuilder\Builder\SphereBuilder.cs" />
     <Compile Include="Assets\FluentGameObjectBuilder\Helper\FluentMonoBehaviour.cs" />
     <Compile Include="Assets\FluentGameObjectBuilderExample\FluentObjectBuilderExample.cs" />
     <Compile Include="Assets\FluentGameObjectBuilderExample\RollABall\RallABall.cs" />
