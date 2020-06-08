@@ -8,9 +8,12 @@ namespace QFramework
         protected Vector3 mPosition { get; set; }
         
         protected Vector3 mEulerAngles { get; set; }
+        protected Vector3 mLocalScale { get; set; }
 
         public FluentBuilder(GameObject gameObject)
         {
+            //scale 要设置为（1，1，1）
+            mLocalScale=Vector3.one;
             mGameObject = gameObject;
         }
 
@@ -26,10 +29,19 @@ namespace QFramework
             return this;
         }
 
-        public virtual void Build()
+        public FluentBuilder LocalScale(Vector3 scale)
+        {
+            mLocalScale = scale;
+            return this;
+        }
+
+        public virtual GameObject Build()
         {
             mGameObject.transform.position = mPosition;
             mGameObject.transform.eulerAngles = mEulerAngles;
+            mGameObject.transform.localScale = mLocalScale;
+
+            return mGameObject;
         }
         
     }

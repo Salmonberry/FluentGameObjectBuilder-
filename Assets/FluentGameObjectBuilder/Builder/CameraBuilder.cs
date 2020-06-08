@@ -11,10 +11,11 @@ namespace QFramework
             
         }
 
-        public override void Build()
+        public override GameObject Build()
         {
             base.Build();
             mGameObject.AddComponent<Camera>();
+            return mGameObject;
         }
     }
 }

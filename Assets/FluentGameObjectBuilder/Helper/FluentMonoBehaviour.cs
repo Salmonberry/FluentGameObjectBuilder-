@@ -7,6 +7,8 @@ namespace QFramework
     {
         public event Action OnStartEvent = () => { };
 
+        public event Action onFixedUpdateEvent = () => { };
+
         public event Action OnUpdateEvent = () => { };
         public event Action OnDestroyEvent = () => { };
 
@@ -18,6 +20,11 @@ namespace QFramework
         private void Update()
         {
             OnUpdateEvent.Invoke();
+        }
+
+        private void FixedUpdate()
+        {
+            onFixedUpdateEvent.Invoke();
         }
 
         private void OnDestroy()

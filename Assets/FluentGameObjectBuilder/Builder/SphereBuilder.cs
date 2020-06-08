@@ -11,12 +11,12 @@ namespace QFramework
     }
     public class SphereBuilder :FluentBuilder
     {
-        public SphereBuilder(string name) : base(new GameObject())
+        public SphereBuilder(string name) : base(new GameObject(name))
         {
             
         }
 
-        public override void Build()
+        public override GameObject Build()
         {
             base.Build();
             
@@ -27,17 +27,18 @@ namespace QFramework
             meshFilter.sharedMesh = Resources.GetBuiltinResource<Mesh>("New-Sphere.fbx");
             
             //创建 网格碰撞器
-            var meshCollider = mGameObject.AddComponent<MeshCollider>();
+            var meshCollider = mGameObject.AddComponent<SphereCollider>();
             
-            //设置网格
-            meshCollider.sharedMesh = meshFilter.sharedMesh;
+            //设置半径 为玩付费尺寸的一半
+            meshCollider.radius = meshFilter.mesh.bounds.size.x * 0.5f;
             
             //添加 网格渲染组件
             var meshRenderer = mGameObject.AddComponent<MeshRenderer>();
             
             //设置默认的材质
-            meshRenderer.materials[0]=new Material(Shader.Find("standard"));
+            meshRenderer.materials[0]=new Material(Shader.Find("Standard"));
 
+            return mGameObject;
         }
     }
 }

@@ -8,62 +8,66 @@ namespace QFramework.Exaple
     {
         private void Awake()
         {
-            //创建相机
+           Setup();
+           BindInput();
+        }
+        
+        private GameObject mPlayerGameobj { get; set; }
+        private Rigidbody mPlayerRigidBody { get; set; }
+
+        ///设置
+        private void Setup()
+        {
+             //创建相机
             var cameraGameObject = Fluent.GameObject()
                 .Name("Main Camera")
                 .Build();
 
-           
-            
+
             //设置camera位置
-//            cameraGameObject.transform.position=Vector3.up;
-            Fluent.Camera(cameraGameObject).Position(Vector3.up).Build();
-            
+            Fluent.Camera(cameraGameObject)
+                .Position(new Vector3(0, 10, -10))
+                .EulerAngles(new Vector3(45,0,0))
+                .Build();
 
             //创建方向光
             var directionLightGameObj = Fluent.GameObject()
                 .Name("Directtion Light")
                 .Build();
             
-            //设置光得方向
-//            directionLightGameObj.transform.eulerAngles=Vector3.right*45;
-            
             //设置光的类型
             Fluent.Light(directionLightGameObj)
                 .Type(LightType.Directional)
-                .EulerAngles(Vector3.right*45) //设置光源的方向
+                .EulerAngles(new Vector3(50, 60, 0)) //设置光源的方向
                 .Build();
-            //var light= directionLightGameObj.AddComponent<Light>();
-            //light.type = LightType.Directional;
 
-//            //地面创建 节点
-//            var groundGameObj = Fluent.GameObject().Name("Ground").Build();
-//            
-//            //创建Mesh Filter
-//            var meshFilter = groundGameObj.AddComponent<MeshFilter>();
-//            
-//            //加载网格
-//            meshFilter.sharedMesh = Resources.GetBuiltinResource<Mesh>("New-Plane.fbx");
-//            
-//            //创建 网格碰撞器
-//            var meshCollider = groundGameObj.AddComponent<MeshCollider>();
-//            
-//            //设置网格
-//            meshCollider.sharedMesh = meshFilter.sharedMesh;
-//            
-//            //添加 网格渲染组件
-//            var meshRenderer = groundGameObj.AddComponent<MeshRenderer>();
-//            
-//            //设置默认材质
-//            meshRenderer.materials[0]=new Material(Shader.Find("Standard"));
+            //创建 地面
+            var groundGameObject = Fluent.Plane("Ground")
+                .LocalScale(new Vector3(2, 1, 2))
+                .Build();
 
-              //创建 地面
-            Fluent.Plane("Ground").Build();
+            groundGameObject
+                .GetComponent<MeshRenderer>()
+                .materials[0].color = Color.blue;
 
             //创建player
-            Fluent.Sphere("Player")
-                .Position(new Vector3(0,1,3))
+            mPlayerGameobj = Fluent.Sphere("Player")
+                .Position(new Vector3(0, 0.5f, 0))
                 .Build();
+            mPlayerRigidBody = mPlayerGameobj.AddComponent<Rigidbody>();
+        }
+
+        ///绑定并处理输入
+        private void BindInput()
+        {
+            Fluent.MonoBehaviour(mPlayerGameobj).onFixedUpdate(() =>
+            {
+                var moveHorizontal = Input.GetAxis("Horizontal");
+                var moveVertical = Input.GetAxis("Vertical");
+
+                var movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+                mPlayerRigidBody.AddForce(movement * 5);
+            }).Build();
         }
     }
 }

@@ -26,11 +26,13 @@ namespace QFramework
             return this;
         }
 
-        public override void Build()
+        public override GameObject Build()
         {
             base.Build();
             var light = mGameObject.AddComponent<Light>();
             light.type = mType;
+
+            return mGameObject;
         }
         
     }

@@ -7,6 +7,7 @@ namespace QFramework
     {
         private Action mOnStart;
         private Action mOnUpdate;
+        private Action mOnFixedUpdate;
         private Action mOnDestory;
 
         private GameObject mGameObject;
@@ -28,6 +29,12 @@ namespace QFramework
             return this;
         }
 
+        public MonoBehaviourBuilder onFixedUpdate(Action onFixedUpdate)
+        {
+            mOnFixedUpdate = onFixedUpdate;
+            return this;
+        }
+
         public MonoBehaviourBuilder OnDestroy(Action onDestroy)
         {
             mOnDestory = onDestroy;
@@ -37,9 +44,11 @@ namespace QFramework
         public void Build()
         {
             var monoBehaviour = mGameObject.AddComponent<FluentMonoBehaviour>();
-            monoBehaviour.OnStartEvent += mOnStart;
-            monoBehaviour.OnUpdateEvent += mOnUpdate;
-            monoBehaviour.OnDestroyEvent += mOnDestory;
+
+            if (mOnStart != null) monoBehaviour.OnStartEvent += mOnStart;
+            if (mOnUpdate != null) monoBehaviour.OnUpdateEvent += mOnUpdate;
+            if (mOnFixedUpdate != null) monoBehaviour.onFixedUpdateEvent += mOnFixedUpdate;
+            if (mOnDestory != null) monoBehaviour.OnDestroyEvent += mOnDestory;
         }
     }
 }
