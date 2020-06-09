@@ -59,6 +59,7 @@
   <ItemGroup>
     <Compile Include="Assets\FluentGameObjectBuilder\API\Fluent.cs" />
     <Compile Include="Assets\FluentGameObjectBuilder\Builder\CameraBuilder.cs" />
+    <Compile Include="Assets\FluentGameObjectBuilder\Builder\CubeBuilder.cs" />
     <Compile Include="Assets\FluentGameObjectBuilder\Builder\FluentBuilder.cs" />
     <Compile Include="Assets\FluentGameObjectBuilder\Builder\GameObjectBuilder.cs" />
     <Compile Include="Assets\FluentGameObjectBuilder\Builder\LightBuilder.cs" />

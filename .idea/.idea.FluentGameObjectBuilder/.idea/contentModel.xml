@@ -13,6 +13,7 @@
           </e>
           <e p="Builder" t="Include">
             <e p="CameraBuilder.cs" t="Include" />
+            <e p="CubeBuilder.cs" t="Include" />
             <e p="FluentBuilder.cs" t="Include" />
             <e p="GameObjectBuilder.cs" t="Include" />
             <e p="LightBuilder.cs" t="Include" />

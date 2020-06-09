@@ -12,6 +12,8 @@ namespace QFramework
         public event Action OnUpdateEvent = () => { };
         public event Action OnDestroyEvent = () => { };
 
+        public event Action onLateUpdateEvent = () => { };
+
         private void Start()
         {
             OnStartEvent.Invoke();
@@ -27,6 +29,11 @@ namespace QFramework
             onFixedUpdateEvent.Invoke();
         }
 
+        private void LateUpdate()
+        {
+            onLateUpdateEvent.Invoke();
+        }
+
         private void OnDestroy()
         {
             OnDestroyEvent.Invoke();
@@ -34,6 +41,7 @@ namespace QFramework
             OnStartEvent = null;
             OnUpdateEvent = null;
             OnDestroyEvent = null;
+            onLateUpdateEvent = null;
         }
     }
 }
