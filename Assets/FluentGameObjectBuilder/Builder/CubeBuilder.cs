@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace QFramework
@@ -21,6 +23,15 @@ namespace QFramework
         {
             
         }
+        
+        
+        List<Action<MeshRenderer>> mMeshRendererOperations = new List<Action<MeshRenderer>>();
+
+        public CubeBuilder Color(Color color)
+        {
+            mMeshRendererOperations.Add(MeshRenderer => MeshRenderer.material.color = color);
+            return this;
+        }
 
         public override GameObject Build()
         {
@@ -36,6 +47,9 @@ namespace QFramework
             var meshRender = mGameObject.AddComponent<MeshRenderer>();
             //设置默认的材质
             meshRender.materials[0]=new Material(Shader.Find("Standard"));
+
+            //遍历所有的操作
+            mMeshRendererOperations.ForEach(operation => operation(meshRender));
             return base.Build();
         }
     }

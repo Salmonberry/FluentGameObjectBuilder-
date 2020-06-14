@@ -8,10 +8,10 @@ namespace QFramework.Exaple
     {
         private void Awake()
         {
-           Setup();
-           BindInput();
+            Setup();
+            BindInput();
         }
-        
+
         private GameObject mPlayerGameobj { get; set; }
         private Rigidbody mPlayerRigidBody { get; set; }
         private GameObject mCameraObj { get; set; }
@@ -19,8 +19,8 @@ namespace QFramework.Exaple
         ///设置
         private void Setup()
         {
-             //创建相机
-             mCameraObj= Fluent.GameObject()
+            //创建相机
+            mCameraObj = Fluent.GameObject()
                 .Name("Main Camera")
                 .Build();
 
@@ -28,14 +28,14 @@ namespace QFramework.Exaple
             //设置camera位置
             Fluent.Camera(mCameraObj)
                 .Position(new Vector3(0, 10, -10))
-                .EulerAngles(new Vector3(45,0,0))
+                .EulerAngles(new Vector3(45, 0, 0))
                 .Build();
 
             //创建方向光
             var directionLightGameObj = Fluent.GameObject()
                 .Name("Directtion Light")
                 .Build();
-            
+
             //设置光的类型
             Fluent.Light(directionLightGameObj)
                 .Type(LightType.Directional)
@@ -56,7 +56,7 @@ namespace QFramework.Exaple
                 .Position(new Vector3(0, 0.5f, 0))
                 .Build();
             mPlayerRigidBody = mPlayerGameobj.AddComponent<Rigidbody>();
-            
+
             //西部的墙
 //            var westwall=new GameObject("westwall");
 //            
@@ -77,46 +77,60 @@ namespace QFramework.Exaple
                 .Position(new Vector3(-10, 0, 0))
                 .LocalScale(new Vector3(0.5f, 2, 20.5f))
                 .Build();
-            
+
             Fluent.Cube("EastWall")
                 .Position(new Vector3(10, 0, 0))
                 .LocalScale(new Vector3(0.5f, 2, 20.5f))
                 .Build();
-            
+
             Fluent.Cube("North")
                 .Position(new Vector3(0, 0, 10))
                 .LocalScale(new Vector3(20.5f, 2, 0.5f))
                 .Build();
-            
+
             Fluent.Cube("South")
                 .Position(new Vector3(0, 0, -10))
                 .LocalScale(new Vector3(20.5f, 2, 0.5f))
                 .Build();
-            
-                //半径
-                var radius = 5;
-                
-                //间隔角度
-                var deltaAngle = 30 * Mathf.Deg2Rad;
 
-                for (int i = 0; i < 12; i++)
+            //半径
+            var radius = 5;
+
+            //间隔角度
+            var deltaAngle = 30 * Mathf.Deg2Rad;
+
+            for (int i = 0; i < 12; i++)
+            {
+                var currentAngle = deltaAngle * i;
+
+                var x = Mathf.Cos(currentAngle) * radius;
+                var y = Mathf.Sin(currentAngle) * radius;
+
+                var cubeGameObj = Fluent.Cube("Pick up")
+                    .Color(Color.yellow)
+                    .Position(new Vector3(x, 0.5f, y))
+                    .LocalScale(new Vector3(0.5f, 0.5f, 0.5f))
+                    .EulerAngles(new Vector3(45, 45, 45))
+                    .Build();
+
+                cubeGameObj.GetComponent<BoxCollider>().isTrigger = true;
+
+                Fluent.MonoBehaviour(cubeGameObj).OnUpdate(() =>
                 {
-                    var currentAngle = deltaAngle * i;
-                    var x = Mathf.Cos(currentAngle) * radius;
-                    var y = Mathf.Sin(currentAngle) * radius;
+                    cubeGameObj.transform.Rotate(new Vector3(15, 30, 45) * Time.deltaTime);
+                }).Build();
 
-                    var cubeGameObj = Fluent.Cube("Pick up")
-                        .Position(new Vector3(x, 0.5f, y))
-                        .LocalScale(new Vector3(0.5f, 0.5f, 0.5f))
-                        .EulerAngles(new Vector3(45, 45, 45))
-                        .Build();
-                    
-                    Fluent.MonoBehaviour(cubeGameObj).OnUpdate(() =>
-                    {
-                        cubeGameObj.transform.Rotate(new Vector3(15,30,45)*Time.deltaTime);
-                
-                    }).Build();
-                }
+                Fluent.MonoBehaviour(cubeGameObj).OnUpdate(() =>
+                {
+                    cubeGameObj.transform.Rotate(new Vector3(15, 30, 45) * Time.deltaTime);
+                }).Build();
+
+                cubeGameObj.GetComponent<BoxCollider>().isTrigger = true;
+                Fluent.MonoBehaviour(cubeGameObj).OnUpdate(() =>
+                {
+                    cubeGameObj.transform.Rotate(new Vector3(15, 30, 45) * Time.deltaTime);
+                }).Build();
+            }
         }
 
         ///绑定并处理输入
@@ -130,16 +144,23 @@ namespace QFramework.Exaple
                 var movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
                 mPlayerRigidBody.AddForce(movement * 5);
             }).Build();
-            
+
             //计算 摄像机和玩家的偏移值
             var offset = mCameraObj.transform.position - mPlayerGameobj.transform.position;
-            
+
             Fluent.MonoBehaviour(mCameraObj).onLateUpdate(() =>
             {
                 //每一帧都去设置偏移值，保证Camera永远与player的相对位置不变
                 mCameraObj.transform.position = mPlayerGameobj.transform.position + offset;
             }).Build();
-            
+
+            Fluent.OnTriggerEnterBuilder(mPlayerGameobj).OnTriggerEnter(other =>
+            {
+                if (other.gameObject.name == "Pick up")
+                {
+                    Destroy(other.gameObject);
+                }
+            }).Build();
 //           
         }
     }

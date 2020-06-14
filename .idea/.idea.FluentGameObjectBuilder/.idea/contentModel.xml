@@ -18,11 +18,13 @@
             <e p="GameObjectBuilder.cs" t="Include" />
             <e p="LightBuilder.cs" t="Include" />
             <e p="MonoBehaviourBuilder.cs" t="Include" />
+            <e p="OnTriggerEnterBuilder.cs" t="Include" />
             <e p="PlaneBuilder.cs" t="Include" />
             <e p="SphereBuilder.cs" t="Include" />
           </e>
           <e p="Helper" t="Include">
             <e p="FluentMonoBehaviour.cs" t="Include" />
+            <e p="FluentOnTriggerEnterTrigger.cs" t="Include" />
           </e>
         </e>
         <e p="FluentGameObjectBuilderExample" t="Include">
