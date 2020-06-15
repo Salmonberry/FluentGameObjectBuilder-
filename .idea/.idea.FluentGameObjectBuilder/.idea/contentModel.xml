@@ -30,6 +30,8 @@
         <e p="FluentGameObjectBuilderExample" t="Include">
           <e p="FluentObjectBuilderExample.cs" t="Include" />
           <e p="RollABall" t="Include">
+            <e p="GameArea.cs" t="Include" />
+            <e p="GameCamera.cs" t="Include" />
             <e p="RallABall.cs" t="Include" />
           </e>
         </e>

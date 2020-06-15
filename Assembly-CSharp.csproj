@@ -70,6 +70,8 @@
     <Compile Include="Assets\FluentGameObjectBuilder\Helper\FluentMonoBehaviour.cs" />
     <Compile Include="Assets\FluentGameObjectBuilder\Helper\FluentOnTriggerEnterTrigger.cs" />
     <Compile Include="Assets\FluentGameObjectBuilderExample\FluentObjectBuilderExample.cs" />
+    <Compile Include="Assets\FluentGameObjectBuilderExample\RollABall\GameArea.cs" />
+    <Compile Include="Assets\FluentGameObjectBuilderExample\RollABall\GameCamera.cs" />
     <Compile Include="Assets\FluentGameObjectBuilderExample\RollABall\RallABall.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>E:/WorkSpace/Code/Unity/FluentGameObjectBuilder/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

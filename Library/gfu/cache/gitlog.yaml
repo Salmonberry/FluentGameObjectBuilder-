@@ -13,9 +13,177 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-06-10T07:05:31.987+08:00
-  initializedAtString: 2020-06-10T07:05:31.939+08:00
+  lastUpdatedAtString: 2020-06-15T00:25:18.318+08:00
+  initializedAtString: 2020-06-15T00:25:18.277+08:00
   log:
+  - commitID: ef297b445268ff541684e1ea812d4afebc8a027b
+    mergeA: 
+    mergeB: 
+    authorName: Salmonberry
+    authorEmail: sos2012happy@gmail.com
+    commitEmail: sos2012happy@gmail.com
+    commitName: Salmonberry
+    summary: 'feat(update with collider): update with collider'
+    description: 
+    timeString: 2020-06-15T00:24:50.000+08:00
+    commitTimeString: 2020-06-15T00:24:50.000+08:00
+    changes:
+    - path: .idea\.idea.FluentGameObjectBuilder\.idea\contentModel.xml
+      fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\.idea\.idea.FluentGameObjectBuilder\.idea\contentModel.xml
+      projectPath: .idea\.idea.FluentGameObjectBuilder\.idea\contentModel.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: .idea\.idea.FluentGameObjectBuilder\.idea\workspace.xml
+      fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\.idea\.idea.FluentGameObjectBuilder\.idea\workspace.xml
+      projectPath: .idea\.idea.FluentGameObjectBuilder\.idea\workspace.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\FluentGameObjectBuilder\Builder\CubeBuilder.cs
+      fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\Builder\CubeBuilder.cs
+      projectPath: Assets\FluentGameObjectBuilder\Builder\CubeBuilder.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\FluentGameObjectBuilder\Builder\OnTriggerEnterBuilder.cs
+      fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\Builder\OnTriggerEnterBuilder.cs
+      projectPath: Assets\FluentGameObjectBuilder\Builder\OnTriggerEnterBuilder.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FluentGameObjectBuilder\Builder\OnTriggerEnterBuilder.cs.meta
+      fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\Builder\OnTriggerEnterBuilder.cs.meta
+      projectPath: Assets\FluentGameObjectBuilder\Builder\OnTriggerEnterBuilder.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FluentGameObjectBuilder\Helper\FluentOnTriggerEnterTrigger.cs
+      fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\Helper\FluentOnTriggerEnterTrigger.cs
+      projectPath: Assets\FluentGameObjectBuilder\Helper\FluentOnTriggerEnterTrigger.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FluentGameObjectBuilder\Helper\FluentOnTriggerEnterTrigger.cs.meta
+      fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\Helper\FluentOnTriggerEnterTrigger.cs.meta
+      projectPath: Assets\FluentGameObjectBuilder\Helper\FluentOnTriggerEnterTrigger.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FluentGameObjectBuilderExample\RollABall\RallABall.cs
+      fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilderExample\RollABall\RallABall.cs
+      projectPath: Assets\FluentGameObjectBuilderExample\RollABall\RallABall.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\CurrentLayout.dwlt
+      fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\EditorInstance.json
+      fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\EditorInstance.json
+      projectPath: Library\EditorInstance.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ProtocolInstance.json
+      fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\ProtocolInstance.json
+      projectPath: Library\ProtocolInstance.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\Hierarchy\e260b8-mainStage.json
+      fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\StateCache\Hierarchy\e260b8-mainStage.json
+      projectPath: Library\StateCache\Hierarchy\e260b8-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\assetDatabase3
+      fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\24\24b6fb00215c47feb8c4e676515363b3
+      fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\metadata\24\24b6fb00215c47feb8c4e676515363b3
+      projectPath: Library\metadata\24\24b6fb00215c47feb8c4e676515363b3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\24\24b6fb00215c47feb8c4e676515363b3.info
+      fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\metadata\24\24b6fb00215c47feb8c4e676515363b3.info
+      projectPath: Library\metadata\24\24b6fb00215c47feb8c4e676515363b3.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\38\38b2fd76411b78448be22eccef51e57d
+      fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\metadata\38\38b2fd76411b78448be22eccef51e57d
+      projectPath: Library\metadata\38\38b2fd76411b78448be22eccef51e57d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\38\38b2fd76411b78448be22eccef51e57d.info
+      fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\metadata\38\38b2fd76411b78448be22eccef51e57d.info
+      projectPath: Library\metadata\38\38b2fd76411b78448be22eccef51e57d.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\5e\5eb2a3ffd3974b5e8a33a2aff2c3c1e0
+      fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\metadata\5e\5eb2a3ffd3974b5e8a33a2aff2c3c1e0
+      projectPath: Library\metadata\5e\5eb2a3ffd3974b5e8a33a2aff2c3c1e0
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\95\9530d196589f8a442a3d4e47c5214d8e
+      fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\metadata\95\9530d196589f8a442a3d4e47c5214d8e
+      projectPath: Library\metadata\95\9530d196589f8a442a3d4e47c5214d8e
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: a2becf41f187091406182eb9778ce15c85bd4396
     mergeA: 
     mergeB: 
