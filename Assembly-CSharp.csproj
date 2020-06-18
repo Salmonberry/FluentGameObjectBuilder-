@@ -59,13 +59,16 @@
   <ItemGroup>
     <Compile Include="Assets\FluentGameObjectBuilder\API\Fluent.cs" />
     <Compile Include="Assets\FluentGameObjectBuilder\Builder\CameraBuilder.cs" />
+    <Compile Include="Assets\FluentGameObjectBuilder\Builder\CanvasBuilder.cs" />
     <Compile Include="Assets\FluentGameObjectBuilder\Builder\CubeBuilder.cs" />
     <Compile Include="Assets\FluentGameObjectBuilder\Builder\FluentBuilder.cs" />
     <Compile Include="Assets\FluentGameObjectBuilder\Builder\GameObjectBuilder.cs" />
     <Compile Include="Assets\FluentGameObjectBuilder\Builder\LightBuilder.cs" />
     <Compile Include="Assets\FluentGameObjectBuilder\Builder\MonoBehaviourBuilder.cs" />
     <Compile Include="Assets\FluentGameObjectBuilder\Builder\OnTriggerEnterBuilder.cs" />
+    <Compile Include="Assets\FluentGameObjectBuilder\Builder\PickUpManager.cs" />
     <Compile Include="Assets\FluentGameObjectBuilder\Builder\PlaneBuilder.cs" />
+    <Compile Include="Assets\FluentGameObjectBuilder\Builder\Player.cs" />
     <Compile Include="Assets\FluentGameObjectBuilder\Builder\SphereBuilder.cs" />
     <Compile Include="Assets\FluentGameObjectBuilder\Helper\FluentMonoBehaviour.cs" />
     <Compile Include="Assets\FluentGameObjectBuilder\Helper\FluentOnTriggerEnterTrigger.cs" />

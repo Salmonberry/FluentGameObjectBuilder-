@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using QFramework.RollABall;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace QFramework.Example
 {
@@ -16,81 +17,60 @@ namespace QFramework.Example
         private GameObject mPlayerGameobj { get; set; }
         private Rigidbody mPlayerRigidBody { get; set; }
         private GameObject mCameraObj { get; set; }
-        
+
         /*游戏区域（场景设置）*/
         private GameArea mGameArea { get; set; }
-        
+
         /*游戏摄像机*/
         private GameCamera mGameCamera { get; set; }
-        
+
+        /*可拾取快管理器*/
+        private PickUpManager mPickUpManager { get; set; }
+
+        /*玩家*/
+        private Player mPlayer { get; set; }
+
         ///设置
         private void Setup()
         {
             //创建 GameArea
-            mGameArea=new GameArea();
-            
-            mGameCamera=new GameCamera();
+            mGameArea = new GameArea();
 
-            //创建player
-            mPlayerGameobj = Fluent.Sphere("Player")
-                .Position(new Vector3(0, 0.5f, 0))
+            mGameCamera = new GameCamera();
+
+            mPickUpManager = new PickUpManager();
+
+            mPlayer = new Player();
+
+            //创建 Canvas
+//            var canvasGameobj=new GameObject("Canvas");
+//            var canvas = canvasGameobj.AddComponent<Canvas>();
+            var canvasGameObj = new CanvasBuilder()
+                .RenderMode(RenderMode.ScreenSpaceOverlay)
                 .Build();
             
-            mPlayerRigidBody = mPlayerGameobj.AddComponent<Rigidbody>();
+            //默认值
+//            canvas.renderMode = RenderMode.ScreenSpaceOverlay;
 
-            //半径
-            var radius = 5;
+            //创建Text
+            var scoreGameobj = new GameObject("Score");
 
-            //间隔角度
-            var deltaAngle = 30 * Mathf.Deg2Rad;
-
-            for (var i = 0; i < 12; i++)
-            {
-                var currentAngle = deltaAngle * i;
-
-                var x = Mathf.Cos(currentAngle) * radius;
-                var y = Mathf.Sin(currentAngle) * radius;
-
-                var cubeGameObj = Fluent.Cube("Pick up")
-                    .Color(Color.yellow)
-                    .Position(new Vector3(x, 0.5f, y))
-                    .LocalScale(new Vector3(0.5f, 0.5f, 0.5f))
-                    .EulerAngles(new Vector3(45, 45, 45))
-                    .Build();
-
-                cubeGameObj.GetComponent<BoxCollider>().isTrigger = true;
-
-                Fluent.MonoBehaviour(cubeGameObj).OnUpdate(() =>
-                {
-                    cubeGameObj.transform.Rotate(new Vector3(15, 30, 45) * Time.deltaTime);
-                }).Build();
-            }
+            //设置canvans父子节点
+            scoreGameobj.transform.SetParent(canvas.transform);
+            //需要手动设置一下位置
+            scoreGameobj.transform.localPosition = Vector3.zero;
+            var scoreText = scoreGameobj.AddComponent<Text>();
+            //需要手动设置字体
+            scoreText.font = Font.CreateDynamicFontFromOSFont("Arial", 16);
+            scoreText.text = "10";
         }
 
-        ///绑定并处理输入
-        private void BindInput()
+        /*绑定并处理输入*/
+        void BindInput()
         {
-            Fluent.MonoBehaviour(mPlayerGameobj).onFixedUpdate(() =>
-            {
-                var moveHorizontal = Input.GetAxis("Horizontal");
-                var moveVertical = Input.GetAxis("Vertical");
-
-                var movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
-                mPlayerRigidBody.AddForce(movement * 5);
-            }).Build();
-
-            
-
-            Fluent.OnTriggerEnterBuilder(mPlayerGameobj).OnTriggerEnter(other =>
-            {
-                if (other.gameObject.name == "Pick up")
-                {
-                    Destroy(other.gameObject);
-                }
-            }).Build();
-            
-            //开始跟随
-            mGameCamera.StartFollowPlayer(mPlayerGameobj);
+            mPlayer.StartListenUserInput();
+            mPlayer.StartCheckCollision();
+            mGameCamera.StartFollowPlayer(mPlayer.GameObject);
         }
     }
 }
