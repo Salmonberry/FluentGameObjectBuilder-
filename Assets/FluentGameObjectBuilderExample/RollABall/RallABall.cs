@@ -56,7 +56,7 @@ namespace QFramework.Example
             var scoreGameobj = new GameObject("Score");
 
             //设置canvans父子节点
-            scoreGameobj.transform.SetParent(canvas.transform);
+            scoreGameobj.transform.SetParent(canvasGameObj.transform);
             //需要手动设置一下位置
             scoreGameobj.transform.localPosition = Vector3.zero;
             var scoreText = scoreGameobj.AddComponent<Text>();
