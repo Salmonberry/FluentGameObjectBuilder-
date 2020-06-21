@@ -17,6 +17,7 @@
             <e p="CubeBuilder.cs" t="Include" />
             <e p="FluentBuilder.cs" t="Include" />
             <e p="GameObjectBuilder.cs" t="Include" />
+            <e p="GameUI.cs" t="Include" />
             <e p="LightBuilder.cs" t="Include" />
             <e p="MonoBehaviourBuilder.cs" t="Include" />
             <e p="OnTriggerEnterBuilder.cs" t="Include" />
@@ -24,6 +25,7 @@
             <e p="PlaneBuilder.cs" t="Include" />
             <e p="Player.cs" t="Include" />
             <e p="SphereBuilder.cs" t="Include" />
+            <e p="TextBuilder.cs" t="Include" />
           </e>
           <e p="Helper" t="Include">
             <e p="FluentMonoBehaviour.cs" t="Include" />

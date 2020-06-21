@@ -27,8 +27,13 @@ namespace QFramework.Example
         /*可拾取快管理器*/
         private PickUpManager mPickUpManager { get; set; }
 
-        /*玩家*/
+        /*玩家(球)*/
         private Player mPlayer { get; set; }
+        
+        /*
+         *游戏信息显示
+         */
+        private GameUI mGameUi {get;set;}
 
         ///设置
         private void Setup()
@@ -41,28 +46,30 @@ namespace QFramework.Example
             mPickUpManager = new PickUpManager();
 
             mPlayer = new Player();
-
-            //创建 Canvas
-//            var canvasGameobj=new GameObject("Canvas");
-//            var canvas = canvasGameobj.AddComponent<Canvas>();
-            var canvasGameObj = new CanvasBuilder()
-                .RenderMode(RenderMode.ScreenSpaceOverlay)
-                .Build();
             
-            //默认值
-//            canvas.renderMode = RenderMode.ScreenSpaceOverlay;
+            mGameUi=new GameUI();
 
-            //创建Text
-            var scoreGameobj = new GameObject("Score");
-
-            //设置canvans父子节点
-            scoreGameobj.transform.SetParent(canvasGameObj.transform);
-            //需要手动设置一下位置
-            scoreGameobj.transform.localPosition = Vector3.zero;
-            var scoreText = scoreGameobj.AddComponent<Text>();
-            //需要手动设置字体
-            scoreText.font = Font.CreateDynamicFontFromOSFont("Arial", 16);
-            scoreText.text = "10";
+//            //创建 Canvas
+////            var canvasGameobj=new GameObject("Canvas");
+////            var canvas = canvasGameobj.AddComponent<Canvas>();
+//            var canvasGameObj = new CanvasBuilder()
+//                .RenderMode(RenderMode.ScreenSpaceOverlay)
+//                .Build();
+//            
+//            //默认值
+////            canvas.renderMode = RenderMode.ScreenSpaceOverlay;
+//
+//            //创建Text
+//            var scoreGameobj = new GameObject("Score");
+//
+//            //设置canvans父子节点
+//            scoreGameobj.transform.SetParent(canvasGameObj.transform);
+//            //需要手动设置一下位置
+//            scoreGameobj.transform.localPosition = Vector3.zero;
+//            var scoreText = scoreGameobj.AddComponent<Text>();
+//            //需要手动设置字体
+//            scoreText.font = Font.CreateDynamicFontFromOSFont("Arial", 16);
+//            scoreText.text = "10";
         }
 
         /*绑定并处理输入*/

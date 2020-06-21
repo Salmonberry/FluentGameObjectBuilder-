@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-06-18T07:37:17.005+08:00
-  initializedAtString: 2020-06-18T07:37:17.005+08:00
+  lastUpdatedAtString: 2020-06-21T22:06:17.163+08:00
+  initializedAtString: 2020-06-21T21:52:23.068+08:00
   entries:
   - path: .idea\.idea.FluentGameObjectBuilder\.idea\contentModel.xml
     fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\.idea\.idea.FluentGameObjectBuilder\.idea\contentModel.xml
@@ -34,27 +34,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\FluentGameObjectBuilder\Builder\PickUpManager.cs
-    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\Builder\PickUpManager.cs
-    projectPath: Assets\FluentGameObjectBuilder\Builder\PickUpManager.cs
+  - path: Assets\FluentGameObjectBuilder\Builder\GameUI.cs
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\Builder\GameUI.cs
+    projectPath: Assets\FluentGameObjectBuilder\Builder\GameUI.cs
     originalPath: 
     indexStatus: 4
     workTreeStatus: 3
-  - path: Assets\FluentGameObjectBuilder\Builder\PickUpManager.cs.meta
-    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\Builder\PickUpManager.cs.meta
-    projectPath: Assets\FluentGameObjectBuilder\Builder\PickUpManager.cs.meta
+  - path: Assets\FluentGameObjectBuilder\Builder\GameUI.cs.meta
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\Builder\GameUI.cs.meta
+    projectPath: Assets\FluentGameObjectBuilder\Builder\GameUI.cs.meta
     originalPath: 
     indexStatus: 4
     workTreeStatus: 0
-  - path: Assets\FluentGameObjectBuilder\Builder\Player.cs
-    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\Builder\Player.cs
-    projectPath: Assets\FluentGameObjectBuilder\Builder\Player.cs
+  - path: Assets\FluentGameObjectBuilder\Builder\TextBuilder.cs
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\Builder\TextBuilder.cs
+    projectPath: Assets\FluentGameObjectBuilder\Builder\TextBuilder.cs
     originalPath: 
     indexStatus: 4
     workTreeStatus: 3
-  - path: Assets\FluentGameObjectBuilder\Builder\Player.cs.meta
-    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\Builder\Player.cs.meta
-    projectPath: Assets\FluentGameObjectBuilder\Builder\Player.cs.meta
+  - path: Assets\FluentGameObjectBuilder\Builder\TextBuilder.cs.meta
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Assets\FluentGameObjectBuilder\Builder\TextBuilder.cs.meta
+    projectPath: Assets\FluentGameObjectBuilder\Builder\TextBuilder.cs.meta
     originalPath: 
     indexStatus: 4
     workTreeStatus: 0
@@ -82,15 +82,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\expandedItems
-    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\expandedItems
-    projectPath: Library\expandedItems
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\gfu\cache\branches.yaml
     fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\gfu\cache\gitlocks.yaml
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -112,33 +112,33 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\metadata\68\688c848710114d0c86c18753c25483f1
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\metadata\68\688c848710114d0c86c18753c25483f1
+    projectPath: Library\metadata\68\688c848710114d0c86c18753c25483f1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\68\688c848710114d0c86c18753c25483f1.info
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\metadata\68\688c848710114d0c86c18753c25483f1.info
+    projectPath: Library\metadata\68\688c848710114d0c86c18753c25483f1.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\metadata\95\9530d196589f8a442a3d4e47c5214d8e
     fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\metadata\95\9530d196589f8a442a3d4e47c5214d8e
     projectPath: Library\metadata\95\9530d196589f8a442a3d4e47c5214d8e
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\b6\b6d2a7307f6e49a4b62773ec4d243de3
-    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\metadata\b6\b6d2a7307f6e49a4b62773ec4d243de3
-    projectPath: Library\metadata\b6\b6d2a7307f6e49a4b62773ec4d243de3
+  - path: Library\metadata\aa\aad6e1e588a14db1bc158a742bc088d3
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\metadata\aa\aad6e1e588a14db1bc158a742bc088d3
+    projectPath: Library\metadata\aa\aad6e1e588a14db1bc158a742bc088d3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\b6\b6d2a7307f6e49a4b62773ec4d243de3.info
-    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\metadata\b6\b6d2a7307f6e49a4b62773ec4d243de3.info
-    projectPath: Library\metadata\b6\b6d2a7307f6e49a4b62773ec4d243de3.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\e4\e408a0823d044525834b1cc8a2238169
-    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\metadata\e4\e408a0823d044525834b1cc8a2238169
-    projectPath: Library\metadata\e4\e408a0823d044525834b1cc8a2238169
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\e4\e408a0823d044525834b1cc8a2238169.info
-    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\metadata\e4\e408a0823d044525834b1cc8a2238169.info
-    projectPath: Library\metadata\e4\e408a0823d044525834b1cc8a2238169.info
+  - path: Library\metadata\aa\aad6e1e588a14db1bc158a742bc088d3.info
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\metadata\aa\aad6e1e588a14db1bc158a742bc088d3.info
+    projectPath: Library\metadata\aa\aad6e1e588a14db1bc158a742bc088d3.info
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -148,12 +148,18 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
-    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\ScriptAssemblies\BuiltinAssemblies.stamp
-    projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+  - path: Library\ShaderCache\2\2467eefc2e0f626677c4ba53b7198aba.bin
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\ShaderCache\2\2467eefc2e0f626677c4ba53b7198aba.bin
+    projectPath: Library\ShaderCache\2\2467eefc2e0f626677c4ba53b7198aba.bin
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\5\5cc8089f4557156e6a13169ce0b519c7.bin
+    fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\ShaderCache\5\5cc8089f4557156e6a13169ce0b519c7.bin
+    projectPath: Library\ShaderCache\5\5cc8089f4557156e6a13169ce0b519c7.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\StateCache\Hierarchy\e260b8-mainStage.json
     fullPath: E:\WorkSpace\Code\Unity\FluentGameObjectBuilder\Library\StateCache\Hierarchy\e260b8-mainStage.json
     projectPath: Library\StateCache\Hierarchy\e260b8-mainStage.json
